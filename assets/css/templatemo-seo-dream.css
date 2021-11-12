@@ -150,10 +150,10 @@ body {
   color: #fff;
 }
 
-::-moz-selection {
-  background: #03a4ed;
-  color: #fff;
-}
+  ::-moz-selection {
+    background: #F42272;
+    color: #fff;
+  }
 
 @media (max-width: 991px) {
   html, body {
@@ -374,7 +374,7 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  color: #4771cb !important;
+  color: #F42272 !important;
 }
 
 .header-area .main-nav .nav li a {
@@ -899,7 +899,7 @@ Banner Style
 }
 
 .main-banner .left-content h2 {
-  border-top: 1px solid #eee;
+  /* border-top: 1px solid #eee; */
   margin-top: 30px;
   padding-top: 20px;
   margin-bottom: 45px;
@@ -1461,15 +1461,15 @@ Portfolio
   text-align: center;
   line-height: 35px;
   font-size: 30px;
-  border: 2px solid #eee;
+  border: 2px solid #33ccc5;
   border-radius: 50%;
-  color: #ddd;
+  color: #33ccc5;
   transition: all 0.5s;
 }
 
 .our-portfolio .owl-nav span:hover {
-  color: #33ccc5;
-  border-color: #33ccc5;
+  color: #FA9D4D;
+  border-color: #FA9D4D;
 }
 
 
@@ -1728,3 +1728,5 @@ responsive
     padding: 30px;
   }
 }
+
+

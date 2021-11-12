@@ -6,12 +6,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
+  --bs-blue: #F42272;
+  --bs-indigo: #F42272;
+  --bs-purple: #F42272;
+  --bs-pink: #F42272;
+  --bs-red: #F42272;
+  --bs-orange: #FA9D4D;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -19,7 +19,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #0d6efd;
+  --bs-primary: #F42272;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -3435,7 +3435,7 @@ textarea.form-control-lg {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #33ccc5;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3650,7 +3650,8 @@ textarea.form-control-lg {
 }
 .dropdown-item:hover, .dropdown-item:focus {
   color: #1e2125;
-  background-color: #e9ecef;
+  background-color: #FB8D54;
+  border-radius: 10px;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -4220,9 +4221,12 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  padding: 10px;
 }
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -4253,6 +4257,9 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #33ccc5;
 }
 
 .card-subtitle {
@@ -5272,6 +5279,9 @@ textarea.form-control-lg {
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: var(--bs-orange);
 }
 
 .modal-body {
